@@ -1,0 +1,1 @@
+<!-- <modal model-class="model-manager-details"></modal> -->

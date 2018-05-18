@@ -1,0 +1,98 @@
+  nav.default-color.navbar-dark.navbar.navbar-dark.navbar-expand-lg.scrolling-navbar {
+      background-color: #ff5722ff !important;
+  }
+  .btn-default{
+    background: #FF5A5F !important;
+  }
+  .bookingbtn:hover{
+    background: #FF5A5F !important;
+    border-color: transparent !important;
+  } 
+  .btn-default:not([disabled]):not(.disabled):active, .btn-default:not([disabled]):not(.disabled).active,
+  .show > .btn-default.dropdown-toggle {
+    background-color: #FF5A5F !important;
+  } 
+  #ks1{
+    border: 0px;
+    width: 100%;
+  }
+  #ks2{
+    border: 0px;
+    width: 100%;
+  }
+  .swiper-container{
+    padding: 5px;
+  }
+  .swiper-container{
+    z-index: 0;
+  }
+  .md-form{
+    margin-top: 0;
+  }
+  .Search-card-img > .img-fluid{
+    height: 12em !important;
+  }
+  .vue-slider{
+    height: 15px;
+    background-color: rgba(81, 81, 81, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.360784) 0.5px 0.5px 3px 1px inset;
+  }
+  .vue-slider-process{
+    background-color: #008489 !important;
+  }
+  .vue-slider-dot{
+    width: 32px !important;
+    height: 32px !important;
+    top: -9.5px !important;
+    transition-duration: 0s;
+    transform: translateX(119px);
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(0, 132, 137) !important;
+    border-radius: 32px !important;
+    outline: medium none currentcolor !important;
+    /*z-index: 2 !important;*/
+    box-shadow: rgb(219, 219, 219) 0px 2px 2px !important;
+  }
+  @media (min-width: 1024px) {
+    .start >.vdp-datepicker__calendar{
+      right: -11.5em;
+      margin-top: 10px;
+    }
+    .end >.vdp-datepicker__calendar{
+      right: 0em;
+      margin-top: 10px;
+    }
+  }
+  @media (min-width:720px) and (max-width: 1023px) {
+    .start >.vdp-datepicker__calendar{
+      right: -11.5em;
+      margin-top: 10px;
+    }
+    .end >.vdp-datepicker__calendar{
+      right: 0em;
+      margin-top: 10px;
+    }
+     ._room{
+      max-width: 100% !important;
+      flex: 0 0 100%;
+    }
+  }
+  @media (max-width: 720px){
+    .start >.vdp-datepicker__calendar{
+      right: -11em !important;
+      margin-top: -7px !important;
+    }
+    .end >.vdp-datepicker__calendar{
+      right: -2.6em;
+      margin-top: -7px;
+    }
+  }
+   .navbar.navbar-dark form .md-form input:focus:not([readonly]) {
+    border-color: #4285f4;
+    margin: 0px;
+   }
+   .navbar.navbar-dark form .md-form .form-control {
+    color: #000000;
+   }
+  
